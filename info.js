@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "Pannaipuram": {soil: "Red loamy", crops: "coconut, Banana,Maize,chilli,Brinjal", problems: "Chilli Leaf Curl", solutions: "Beauveria basssiana Spray"},
             "T Meenakshipuram": {soil: "Red sandy", crops: "coconut,Banana", problems: "Rhinocerous beetle", solutions: "Bucket trap"},
             "Thevaram hills(Non Habitat)": {soil: "Laterite", crops: "pepper,Fig", problems: "Anthracnose/pollu disease", solutions: "Bordeaux Mixture 1%"},
-            "Thevaram": {soil: "Red loamy", crops: "Cholam,Red gram,Maize,cumbu,Sorghum", problems: "Mosaic virus", solutions: " "},
+            "Thevaram": {soil: "Red loamy", crops: "Cholam,Red gram,Maize,cumbu,Sorghum", problems: "Mosaic virus", solutions: " "}
     
             // Add more village information as needed
         }
