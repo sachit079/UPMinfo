@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Information</title>
+    <link rel="stylesheet" href="styleinfo.css">
+</head>
+<body>
+    
+    <header class="college-header">
+        <h1>College of Agricultural Technology, Theni<br>Uthampalayam block<br>2020-2024</h1>
+    </header>
+    <div class="container">
+        <header>
+             <!-- Google Translator Widget Container -->
+     <div id="google_translate_element"></div>
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Discover Your Village</h1>
+            <p>Get detailed information about your village's soil, crops, and solutions.</p>
+        </header>
+        <form id="locationForm">
+            <div class="form-group">
+                <label for="stateSelect">Select State:</label>
+                <select id="stateSelect" required>
+                    <option value="">Select a state</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="districtSelect">Select District:</label>
+                <select id="districtSelect" disabled required>
+                    <option value="">Select a district</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="blockSelect">Select Block:</label>
+                <select id="blockSelect" disabled required>
+                    <option value="">Select a block</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="villageSelect">Select Village:</label>
+                <select id="villageSelect" class="scrollable-select" disabled required>
+                    <option value="">Select a village</option>
+                </select>
+            </div>
+        </form>
+        <div id="villageInfoContainer" class="hidden"></div>
+    </div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'hi,ta,te,or,mr,en,kn,ml',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script src="info.js"></script>
+</body>
+</html>

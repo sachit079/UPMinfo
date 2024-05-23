@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, #f06, #ffba00) no-repeat center center fixed; */
+    background-color: #f5f5dc;
+    background-image: url('images/college\ logo.png'); /* Replace 'your-background-image.jpg' with your actual image path */
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: center 100%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    overflow-y: scroll; /* Allow vertical scrolling */
+    /* background-repeat:repeat-y */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto; /* Center the container */
+    color: #333;
+    position: relative; /* Ensure container is positioned */
+}
+.college-header {
+    text-align: center;
+    padding: 10px;
+    /* background: rgba(0, 0, 0, 0.6); Optional: Add background color for better readability */
+    color:  #ff7f50;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 0.9em;
+    margin-bottom: -15px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ffba00;
+    margin: 10px 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+header p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+    color: #333;
+}
+
+.scrollable-select {
+    max-height: 350px;
+    overflow-y: auto; /* Allow scrolling within the dropdown */
+}
+
+select:focus {
+    border-color: #ffba00;
+    outline: none;
+}
+
+#villageInfoContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+#villageInfoContainer h2 {
+    margin-top: 0;
+    color: #ffba00;
+}
+
+#villageInfoContainer p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+.village-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}
+#google_translate_element {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    z-index: 1000; /* Ensure widget appears above other content */
+}
