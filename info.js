@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "Block5": ["Village9", "Village10"],
             "Block6": ["Village11", "Village12"],
             "Block7": ["Village13", "Village14"],
-            "Uttamapalaiyam": ["Uthampalayam north(Ramasamynayackanpatti)", "Uthampalayam south(Ambasamuthram)","Royappanpatti","Mallingapuram","Gokilapuram","Kombai east(Melasindalacherry)","Kombai west(Renganathapuram)","Pannaipuram","T Meenakshipuram","Thevaram hills(Non Habitat)","Thevaram"]
+            "Uttampalayam": ["Uthampalayam north(Ramasamynayackanpatti)", "Uthampalayam south(Ambasamuthram)","Royappanpatti","Mallingapuram","Gokilapuram","Kombai east(Melasindalacherry)","Kombai west(Renganathapuram)","Pannaipuram","T Meenakshipuram","Thevaram hills(Non Habitat)","Thevaram"]
         },
         villageInfo: {
             "Uthampalayam north(Ramasamynayackanpatti)": {soil: "Red Loamy", crops: "coconut,cocoa,Banana", problems: "Rugose white Fluy", solutions: "Spraying of Maida Solution",image: "images/uthampalayam north.jpg"},
