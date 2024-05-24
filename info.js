@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "State2": ["District3", "District4"]
         },
         districts: {
-            "Theni": ["Andipatti", "Chinnamanur","K Myladumparai","Theni","Bodinayakkanur","Cumbum","Periyakulam","Uttamapalaiyam"],
+            "Theni": ["Andipatti", "Chinnamanur","K Myladumparai","Theni","Bodinayakkanur","Cumbum","Periyakulam","Uttampalayam"],
             "District2": ["Block3", "Block4"],
             "District3": ["Block5", "Block6"],
             "District4": ["Block7", "Block8"]
@@ -25,20 +25,20 @@ document.addEventListener('DOMContentLoaded', function() {
             "Block5": ["Village9", "Village10"],
             "Block6": ["Village11", "Village12"],
             "Block7": ["Village13", "Village14"],
-            "Uttamapalaiyam": ["Uttamapalaiyam North", "Uttamapalaiyam South","Royappanpatti","Mallingapuram","Gokilapuram","Kombai East","Kombai West","Pannaipuram","T Meenakshipuram","Thevaram hills(Non Habitat)","Thevaram"]
+            "Uttamapalaiyam": ["Uthampalayam north(Ramasamynayackanpatti)", "Uthampalayam south(Ambasamuthram)","Royappanpatti","Mallingapuram","Gokilapuram","Kombai east(Melasindalacherry)","Kombai west(Renganathapuram)","Pannaipuram","T Meenakshipuram","Thevaram hills(Non Habitat)","Thevaram"]
         },
         villageInfo: {
-            "Uttamapalaiyam North": {soil: "Red Loamy", crops: "coconut,cocoa,Banana", problems: "Rugose white Fluy", solutions: "Spraying of Maida Solution",image: "images/uthampalayam north.jpg"},
-            "Uttamapalaiyam South": {soil: "Red Loamy", crops: "coconut,cocoa,Banana", problems: "Rugose white Fluy", solutions: "Spraying of Maida Solution",image: "images/uthampalayam south.jpg"},
+            "Uthampalayam north(Ramasamynayackanpatti)": {soil: "Red Loamy", crops: "coconut,cocoa,Banana", problems: "Rugose white Fluy", solutions: "Spraying of Maida Solution",image: "images/uthampalayam north.jpg"},
+            "Uthampalayam south(Ambasamuthram)": {soil: "Red Loamy", crops: "coconut,cocoa,Banana", problems: "Rugose white Fluy", solutions: "Spraying of Maida Solution",image: "images/uthampalayam south.jpg"},
             "Royappanpatti": {soil: "Red Loamy, red soil", crops: "Banana,coconut,onion,crucifers,Grapes", problems: "lodging of Banana", solutions: "propping",image: "images/Royappanpatti.jpg"},
             "Mallingapuram": {soil: "Red sandy", crops: "coconut", problems: "Rhinocerous beetle,Rugose white fly", solutions: "bucket trap(Rhinocerus bettle),spraying of maida Solution(Rugose white fly)",image: "images/Mallingapuram.jpg"},
             "Gokilapuram": {soil: "Black soil,Red soil", crops: "Paddy, Pulses", problems: "Zn deficiency Khira disease", solutions: "Application of Znso4",image: "images/Gokilapuram.jpg"},
-            "Kombai West": {soil: "Red soil", crops: "coconut, Grounnut,Sollam,Cumbu,lablab", problems: "Groundnut tikka disease", solutions: "Burning of the previous year's diseased plants reduces infection to a great extent. Two to four years of crop rotation is also effective in reducing infection. Seed disinfection is a means of preventing the disease. Spraying fungicides like Bordeaux mixture.",image: "images/Kombai West.jpg"},
-            "Kombai East": {soil: "Red soil", crops: "coconut, Grounnut,Sollam,Cumbu,lablab", problems: "  Powdery mildew in Ivy Gourd Pseudo stem weevil in banana", solutions: "Dust wettable sulphur for P.M Pseudo stem injection  or use of pseudo stem trap in banana",image: "images/Kombai East.jpg"},
+            "Kombai west(Renganathapuram)": {soil: "Red soil", crops: "coconut, Grounnut,Sollam,Cumbu,lablab", problems: "Groundnut tikka disease", solutions: "Burning of the previous year's diseased plants reduces infection to a great extent. Two to four years of crop rotation is also effective in reducing infection. Seed disinfection is a means of preventing the disease. Spraying fungicides like Bordeaux mixture.",image: "images/Kombai West.jpg"},
+            "Kombai east(Melasindalacherry)": {soil: "Red soil", crops: "coconut, Grounnut,Sollam,Cumbu,lablab", problems: "  Powdery mildew in Ivy Gourd Pseudo stem weevil in banana", solutions: "Dust wettable sulphur for P.M Pseudo stem injection  or use of pseudo stem trap in banana",image: "images/Kombai East.jpg"},
             "Pannaipuram": {soil: "Red loamy", crops: "coconut, Banana,Maize,chilli,Brinjal", problems: "Chilli Leaf Curl", solutions: "Beauveria basssiana Spray",image: "images/Pannaipuram.jpg"},
             "T Meenakshipuram": {soil: "Red sandy", crops: "coconut,Banana", problems: "Rhinocerous beetle", solutions: "Bucket trap",image: "images/T Meenakshipuram.jpg"},
             "Thevaram hills(Non Habitat)": {soil: "Laterite", crops: "pepper,Fig", problems: "Anthracnose/pollu disease", solutions: "Bordeaux Mixture 1%",image: "images/Thevaram Hills.jpg"},
-            "Thevaram": {soil: "Red loamy", crops: "Cholam,Red gram,Maize,cumbu,Sorghum", problems: "Mosaic virus", solutions: " ",image: "images/Thevaram.jpg"}
+            "Thevaram": {soil: "Red loamy", crops: "coconut,arecanut,cardamom", problems: "rucos whitefly,rhinocerous beetle", solutions: "Spray Maida solution,Bucket trap to control rhinocerous beetle",image: "images/Thevaram.jpg"}
     
             // Add more village information as needed
         }
