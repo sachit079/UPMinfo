@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     /* background: linear-gradient(135deg, #f06, #ffba00) no-repeat center center fixed; */
     background-color: #f5f5dc;
-    background-image: url('images/college\ logo.png'); /* Replace 'your-background-image.jpg' with your actual image path */
+    background-image: url('college logo.png'); /* Replace 'your-background-image.jpg' with your actual image path */
     background-repeat: no-repeat;
     background-size: 500px 500px;
     background-position: center 100%;
